@@ -17,8 +17,8 @@
     --secundary-text-color: #626c7f;
     --button-bg: #fff;
     --shadow: 0px 16px 40px 0px rgba(143, 160, 193, 0.14);
-    --bg_html: #fff1e9;
-    --bg_css: #e0fdef;
+    --bg-html: #fff1e9;
+    --bg-css: #e0fdef;
     --bg-javascript: #ebf0ff;
     --bg-acessibilidade: #f6e7ff;
     --bg-mobile: url(../../assets/images/pattern-background-mobile-light.svg);
@@ -65,6 +65,23 @@ header {
     padding: 5px;
     border-radius: 5px;
 }
+
+.assunto_icone.html {
+    background: var(--bg-html)
+}
+
+.assunto_icone.css {
+    background: var(--bg-css);
+}
+
+.assunto_icone.javascript {
+    background: var(--bg-javascript);
+}
+
+.assunto_icone.acessibilidade {
+    background: var(--bg-acessibilidade);
+}
+
 
 .assunto_icone img{
     width: 100%;
